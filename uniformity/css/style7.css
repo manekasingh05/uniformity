@@ -1,0 +1,101 @@
+.navbar-header img {
+    height: 250%;
+    margin-top: 0px;
+}
+.icon-bar {
+    color: #fff;
+    background-color: #fff;
+}
+.navbar-toggle:hover {
+    color: #000000;
+    background-color: #000000;
+    border-color: #000000;
+}
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+.website-top-nav {
+    padding: 7px 0;
+}
+.personal-website {
+    padding: 0 85px;
+}
+.navbar-nav {
+    float: right;
+}
+.navbar-nav > li > a {
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Fredoka One', cursive;
+}
+.navbar-toggle collapsed > li > a {
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Fredoka One', cursive;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #ffffff;
+    background: #0000;
+}
+.navbar-toggle {
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #855187;
+}
+.navbar-collapse {
+    max-height: none !important;
+}
+#graphics
+{
+   background-image: url(../img/navigation.jpg); 
+         background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#img1 img
+{
+    margin-left: 300px;
+    margin-top: 250px;
+    height:800px;
+    opacity: 10;
+}
+#img2 img
+{
+   float: right;
+    height:200px;
+    opacity: 10;
+}
+.btn-general {
+    border-color: #540B57;
+    background-color: #540B57;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'arial black';
+}
+.btn-white {
+    border-color: #540B57;
+    color: #ffffff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #000000;
+    color: #ffffff;
+}

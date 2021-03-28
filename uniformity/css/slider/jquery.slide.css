@@ -1,0 +1,47 @@
+
+#slideshow-controller {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+
+#slideshow-banner ul { position: relative; }
+
+#slideshow-banner ul .slideshow-item { position: absolute }
+
+#controller-left {
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  cursor: pointer;
+}
+
+#controller-right {
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  cursor: pointer;
+}
+
+.controller-item {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #f00;
+  margin-right: 10px;
+  border-radius: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.controller-item-hover {
+  opacity: 1;
+  background: #ccc;
+  transform: rotateX(360deg);
+  transition: transform 2s;
+}
+
+.slideshow-transform {
+  transform: scale(1.1, 1.1);
+  transition: transform 8s;
+}
